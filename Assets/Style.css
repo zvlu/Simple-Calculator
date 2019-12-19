@@ -59,4 +59,21 @@ body {
     height: 50px;
     margin: 15px;
     float: left;
+    border-radius: 50%;
+    border-width: 0;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+.number, .empty {
+    background-color: #e496d9;
+}
+.number, .operator {
+    cursor: pointer;
+}
+.operator:active, .number:active {
+    font-size: 60px;
+}
+.operator:focus, .number:focus, .empty:focus {
+    outline: 0;
 }
